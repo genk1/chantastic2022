@@ -20,16 +20,14 @@ export default function About() {
   }, [val]);
   return (
     <div className={styles.container}>
-      <main className={styles.main}>
-        <h1>about/PAGE.tsx</h1>
-        <button
-          onClick={() => {
-            setVal((prev) => !prev);
-          }}
-        >
-          CLICK here
-        </button>
-      </main>
+      <h1>about/PAGE.tsx</h1>
+      <button
+        onClick={() => {
+          setVal((prev) => !prev);
+        }}
+      >
+        CLICK here
+      </button>
     </div>
   );
 }
