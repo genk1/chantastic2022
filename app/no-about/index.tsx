@@ -1,4 +1,4 @@
-import styles from '../page.module.css';
+import styles from "../page.module.css";
 
 /**
  * not accessible here because the file name is not page.xxx
