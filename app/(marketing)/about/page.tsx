@@ -4,7 +4,7 @@
  */
 "use client";
 import { useEffect, useState } from "react";
-import styles from "../page.module.css";
+import styles from "../../page.module.css";
 
 /**
  * accessible here because the file name is page.tsx or page.xxx
